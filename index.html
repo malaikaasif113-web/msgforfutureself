@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Time Capsule</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Time Capsule</h1>
+
+<p>Write a message for your future self</p>
+
+<input
+type="text"
+id="title"
+placeholder="Enter title">
+
+<textarea
+id="message"
+placeholder="Write your message">
+</textarea>
+
+<button onclick="saveMessage()">
+Save Message
+</button>
+
+<button onclick="showMessage()">
+Open Capsule
+</button>
+
+<button onclick="deleteMessage()">
+Delete
+</button>
+
+<div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
